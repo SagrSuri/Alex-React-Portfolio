@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  height: 100vh;
+  background: #161513;
+  color: white;
+  font-family: 'outfit','Poppins';
+}
+::-webkit-scrollbar {width:0.5rem}
+::-webkit-scrollbar-track {background:linear-gradient(to right, orange ,white,green)}
+::-webkit-scrollbar-thumb {background:#e70eff}
+::-webkit-scrollbar-thumb:hover {background:#ff90fde3}
